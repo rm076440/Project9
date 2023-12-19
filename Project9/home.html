@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Native Cooking Home</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <script type="text/javascript" src="myscripts.js"></script>
+</head>
+
+<body onload="preloadImages()">
+
+    <div id="container">
+        <header>
+            <img src="Images/Designs/logo.png" alt="Logo">
+            <img src="Images/Designs/banner.png" alt="Banner">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="Tributes.html">Tributes</a></li>
+                    <li><a href="Survey.html">Survey</a></li>
+                    <li><a href="Links.html">Favorites</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <h1>
+                    Welcome to Native Cooking of Utah!
+                </h1>
+                <p>
+                    If you love to cook like we do, you should enjoy looking around this site.
+                </p>
+                <p>
+                    Take a look at our Recipes and take the opportunity to complete our
+                    survey.
+                </p>
+                <!--Image Swap -->
+                <div class="imgswap">
+                    <h1>Image Swap Example</h1>
+                    <p class="instructions">[Instructions: Mouse over small images to see larger image.]</p>
+
+                    <div id="thumbs">
+                        <img src="Images/project7images/Image1Sm.png" alt="Professional Chef" onmouseover="swapImage(0);">
+                        <img src="Images/project7images/Image2Sm.png" alt="Fresh Cupcake" onmouseover="swapImage(1);">
+                        <img src="Images/project7images/Image3Sm.png" alt="Warm Cookies" onmouseover="swapImage(2);">
+                        <img src="Images/project7images/Image4Sm.png" alt="Garden-made Salad" onmouseover="swapImage(3);">
+                        <br>
+                    </div>
+                    <div id="image">
+                        <img id="theImage" src="Images/project7images/Image1Lg.jpg" alt="Preview">
+                        <h3 id="bottomText">Professional Chef</h3>
+                    </div>
+                </div>
+                <div class="tributes-snippet">
+                    <p>"My favorite past time is cooking. I especially like cooking for family and friends. I was glad
+                        to find this web
+                        site
+                        about Native Cooking of Utah. I like to make sure the items I choose to cook meet the needs of
+                        my target
+                        audience. I
+                        have found the recipes in this collection to be wildly popular with my Utah neighbors and family
+                        members. My
+                        family
+                        especially loves the raspberry cake recipe. I am enclosing a photo of my version of the cake.""
+                        <br>Thanks for adding spice to my cooking,
+                        <br>Janet Waters
+                        <br>Salt Lake City, Utah
+                    </p>
+                    <img src="Images/Designs/RasberryCakeSm.jpg" alt="Cake">
+                    <!--tribute page-->
+                    <p><a href="Tributes.html">More</a></p>
+
+                </div>
+            </article>
+        </section>
+        <footer id="footer">
+
+            <p><a href="email: rm076440@stu.provo.edu" style="color:#D0D0D0">Email the Owners</a></p>
+
+            <p>This web site has been created solely for educational purposes.</p>
+
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
